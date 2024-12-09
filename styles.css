@@ -59,24 +59,6 @@
         }
         
 
-
-        #form .container {
-            text-align: center;  /* Centers content inside the container */
-        }
-        
-        #form .btn {
-            padding: 10px 20px;        /* Adjusts padding for button size */
-            font-size: 16px;           /* Sets font size */
-            border-radius: 5px;        /* Optional: rounded corners */
-            background-color: #007bff; /* Primary button color (adjust as needed) */
-            border: none;              /* Removes border */
-            color: white;              /* Text color */
-            transition: background-color 0.3s ease; /* Smooth hover transition */
-        }
-        
-        #form .btn:hover {
-            background-color: #0056b3; /* Darker shade on hover */
-        }
          
         .send-message {
             margin-left: 130px;  /* Adjust the value to set the margin from the left */
