@@ -1,0 +1,78 @@
+
+h1, h2 {
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  color: yellowgreen;
+}
+body {
+  background-color: rgb(14, 10, 70);
+}
+p {
+  color: white;
+  text-align: center;
+  text-align: justify;
+  
+}
+/* General form styles */
+form {
+    max-width: 900px; /* Limit the form's width */
+    margin: 0 auto; /* Center the form on the page */
+    background-color: #f8f9fa; /* Light background */
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Styling the form inputs */
+  form .form-control {
+    border-radius: 4px;
+    border: 1px solid #ced4da;
+  }
+  
+  form button {
+    width: 20%; /* Make the button stretch across */
+  }
+  
+  #footer {
+    background-color:  lightgoldenrodyellow ;
+    
+  }
+ .neph {
+  text-align: center;
+ }
+  
+  /* Media Queries */
+@media (max-width: 768px) {
+  .container {
+    padding: 0.5rem;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .col {
+    padding: 0.5rem 0;
+  }
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.mt-1 {
+  margin-top: 0.5rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
