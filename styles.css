@@ -60,19 +60,6 @@
         
 
          
-        .send-message {
-            margin-left: 130px;  /* Adjust the value to set the margin from the left */
-            text-align: left;    /* Ensures the text is left-aligned */
-            height: 30px;
-        }
-        
-        /* Mobile responsiveness */
-        @media (max-width: 768px) {
-            .send-message {
-                margin-left: 20px;  /* Adjust the left margin for smaller screens */
-                font-size: 24px;    /* Optionally adjust the font size for better readability */
-                height: auto;       /* Adjust height if necessary */
-            }
-        }
+     
         
         
