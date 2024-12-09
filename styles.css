@@ -7,6 +7,11 @@
         body {
             font-family: 'Poppins', sans-serif;
         }
+
+        h3 {
+            text-align: center;
+        }
+        
         
         .header-title {
             color: #333;
@@ -28,6 +33,14 @@
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
         }
 
+        .card-img-top {
+            width: 100%; /* Ensures responsiveness */
+            height: 250px; /* Set a fixed height */
+            object-fit: cover; /* Ensures the image fills the space without distortion */
+            object-position: center; /* Centers the image within the space */
+        }
         
        
-          
+        .h3 {
+            text-align: center;
+        }
