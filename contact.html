@@ -7,12 +7,18 @@
   <title>PK PROJECTS</title>
   <link rel="stylesheet" href="./styles.css">
   <link rel="stylesheet" href="./Assets/styles.css">
+ 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
 
+<style>
+  body {
+  background-color: rgb(14, 10, 70);
+}
 
+</style>
   
 </head>
 <body>
@@ -22,8 +28,8 @@
 <header class="bg-blue-500 py-3 text-white">
   <div class="container mx-auto flex justify-between items-center px-2 sm:px-4">
       <!-- Left: CTA Button -->
-      <a href="./contact.html" class="bg-white text-blue-500 px-3 sm:px-4 py-1 sm:py-2 text-sm sm:text-base rounded font-bold hover:bg-gray-100 transition">
-         SEND EMAIL
+      <a href="./index.html" class="bg-white text-blue-500 px-3 sm:px-4 py-1 sm:py-2 text-sm sm:text-base rounded font-bold hover:bg-gray-100 transition">
+        Home
       </a>
 
       <!-- Center: Title -->
@@ -32,7 +38,7 @@
       </h1>
 
       <!-- Right: Call Button -->
-      <a href="tel:+1234567890" class="bg-green-500 px-3 sm:px-4 py-1 sm:py-2 text-sm sm:text-base rounded font-bold hover:bg-green-600 transition">
+      <a href="tel:+27 81 438 7721" class="bg-green-500 px-3 sm:px-4 py-1 sm:py-2 text-sm sm:text-base rounded font-bold hover:bg-green-600 transition">
          CALL NOW
       </a>
   </div>
@@ -40,7 +46,7 @@
 
 
   
-    <H1> SEND MESSAGE</H1>
+    <H1 style="color: white; font-size: x-large;"> SEND MESSAGE</H1>
     <p style="text-align: center;">Please send us the message for more information</p>
     <section id="form">
       <div class="container">
@@ -88,18 +94,20 @@
     </script>
     
  
-    <!-- Footer -->
-    <footer class="bg-gray-800 text-white text-center py-4">
-      <p>&copy; <span id="year"></span> PK Projects. All rights reserved.</p>
-  </footer>
+      <!-- Footer -->
+      <footer class="bg-gray-800 text-white text-center py-4">
+        <div class="project">
+        <p>&copy; <span id="year"></span> PK Projects. All rights reserved.</p>
+      </div>
+    </footer>
 
-  <script>
-      // Get the current year and set it in the footer
-      document.getElementById("year").textContent = new Date().getFullYear();
-  </script>
-     
+    <script>
+        // Get the current year and set it in the footer
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 
-      
+    <!-- Bootstrap JS -->
+  
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

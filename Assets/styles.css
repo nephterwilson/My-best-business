@@ -1,78 +1,23 @@
-
-h1, h2 {
-  text-align: center;
-  color: white;
-}
-
-h3 {
-  color: yellowgreen;
-}
-body {
-  background-color: rgb(14, 10, 70);
-}
-p {
-  color: white;
-  text-align: center;
-  text-align: justify;
+h1,h2{
+  text-align:center;color:#fff}
   
-}
-/* General form styles */
-form {
-    max-width: 900px; /* Limit the form's width */
-    margin: 0 auto; /* Center the form on the page */
-    background-color: #f8f9fa; /* Light background */
-    padding: 20px;
-    border: 1px solid #dee2e6;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-  }
+  h3{color:yellowgreen}
   
-  /* Styling the form inputs */
-  form .form-control {
-    border-radius: 4px;
-    border: 1px solid #ced4da;
-  }
-  
-  form button {
-    width: 20%; /* Make the button stretch across */
-  }
-  
-  #footer {
-    background-color:  lightgoldenrodyellow ;
+  p{
+    color:#fff;text-align:center;text-align:justify}
     
-  }
- .neph {
-  text-align: center;
- }
-  
-  /* Media Queries */
-@media (max-width: 768px) {
-  .container {
-    padding: 0.5rem;
-  }
-
-  .row {
-    flex-direction: column;
-  }
-
-  .col {
-    padding: 0.5rem 0;
-  }
-}
-
-/* Utility Classes */
-.text-center {
-  text-align: center;
-}
-
-.mt-1 {
-  margin-top: 0.5rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.5rem;
-}
-
-.hidden {
-  display: none;
-}
+    form{max-width:900px;margin:0 auto;
+      background-color:#f8f9fa;
+      padding:20px;
+      border:1px solid #dee2e6;
+      border-radius:8px;
+      box-shadow:0 4px 6px rgb(0 0 0 / .1)}
+      form .form-control{border-radius:4px;border:1px solid #ced4da}form button{width:20%}
+      
+      .neph{text-align:center}
+      @media (max-width:768px)
+      {.container{padding:.5rem}.row{flex-direction:column}.col{padding:.5rem 0}}.text-center{text-align:center}
+      .mt-1{margin-top:.5rem}.mb-1{margin-bottom:.5rem}.hidden{display:none}
+      
+      footer{background-color:#2d3748;color:#fff;text-align:center;padding:20px 0}footer 
+      .project{display:flex;justify-content:center;align-items:center;height:100%}
