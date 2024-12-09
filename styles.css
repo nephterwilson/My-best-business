@@ -41,6 +41,56 @@
         }
         
        
-        .h3 {
-            text-align: center;
+        #button {
+            display: flex;
+            justify-content: center;  /* Centers the button horizontally */
+            align-items: center;      /* Centers the button vertically (if section has more height) */
+            height: 100px;            /* Adjust the height as needed */
         }
+        
+        #button a {
+            text-decoration: none;    /* Removes the underline from the link */
+        }
+        
+        #button .btn {
+            font-size: 16px;          /* Adjust font size */
+            padding: 10px 20px;       /* Adjust padding for button size */
+            border-radius: 5px;       /* Optional: rounded corners */
+        }
+        
+
+
+        #form .container {
+            text-align: center;  /* Centers content inside the container */
+        }
+        
+        #form .btn {
+            padding: 10px 20px;        /* Adjusts padding for button size */
+            font-size: 16px;           /* Sets font size */
+            border-radius: 5px;        /* Optional: rounded corners */
+            background-color: #007bff; /* Primary button color (adjust as needed) */
+            border: none;              /* Removes border */
+            color: white;              /* Text color */
+            transition: background-color 0.3s ease; /* Smooth hover transition */
+        }
+        
+        #form .btn:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+         
+        .send-message {
+            margin-left: 130px;  /* Adjust the value to set the margin from the left */
+            text-align: left;    /* Ensures the text is left-aligned */
+            height: 30px;
+        }
+        
+        /* Mobile responsiveness */
+        @media (max-width: 768px) {
+            .send-message {
+                margin-left: 20px;  /* Adjust the left margin for smaller screens */
+                font-size: 24px;    /* Optionally adjust the font size for better readability */
+                height: auto;       /* Adjust height if necessary */
+            }
+        }
+        
+        
